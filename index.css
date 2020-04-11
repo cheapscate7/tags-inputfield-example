@@ -1,0 +1,44 @@
+.input-container {
+  font-family: "san-serif";
+  border: 1px solid #333;
+  border-radius: 3px;
+  min-width: 25vw;
+  max-width: 90vw;
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+  padding: 0.5rem;
+}
+.input-container:focus {
+  outline: blue;
+}
+
+.input-container--tag-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.input-container--tag {
+  background-color: #ff0004;
+  color: white;
+  padding: 0.2rem 0.3rem;
+  border-radius: 3px;
+  /* width: auto; */
+  font-size: 12pt;
+}
+.input-container--tag:first-of-type {
+  margin-right: 0.2rem;
+}
+.input-container--tag:not(:first-child) {
+  margin: 0 0.2rem;
+}
+
+.input-container--input {
+  flex-grow: 1;
+  margin: 0.2rem;
+  outline: none;
+  font-size: 12pt;
+  border: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
